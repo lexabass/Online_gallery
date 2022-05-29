@@ -1,0 +1,63 @@
+@media screen and (max-width: 515px) {
+    header {
+        height: 3rem;
+        width: 100%;
+    }
+
+    header a {
+        display: block;
+    }
+
+    .mobile_icon {
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        background: #fff;
+        padding: .5rem;
+        border-radius: 5px;
+        margin: 1rem;
+    }
+
+    .mobile_icon img {
+        width: 100%;
+    }
+
+    .popup {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        left: 0;
+        background: rgba(255, 255, 255, .8);
+    }
+
+    header.open .popup a {
+        display: block;
+        text-align: center;
+        color: black;
+        margin: 10px 0;
+    }
+
+    #grid {
+        grid-template-columns: 1fr;
+    }
+    .disclaimer {
+        display: none!important;
+        visibility: hidden!important;
+    }
+}
+
+/* TABLET */
+
+@media screen and (max-width:1280px) {
+    .photo p {
+        font-size: 1.2rem;
+    }
+
+    header a {
+        font-size: 0.7rem;
+    }
+    .disclaimer {
+        display: none!important;
+        visibility: hidden!important;
+    }
+}

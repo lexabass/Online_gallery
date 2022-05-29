@@ -1,0 +1,9 @@
+{
+    "name": "lexabass/pract",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Photos\\": ""
+        }
+    }
+}
